@@ -1,6 +1,7 @@
 sudo: required
-services:
-  - docker
+language: python
+python:
+  - "3.9"
 env:
   global:
     - SHA=$(git rev-parse HEAD)
