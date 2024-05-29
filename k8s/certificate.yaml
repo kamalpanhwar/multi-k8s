@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: analysisline-com-tls
+spec:
+  secretName: analysisline-com
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: analysisline.com
+  dnsNames:
+    - analysisline.com
+    - analysisline.com
