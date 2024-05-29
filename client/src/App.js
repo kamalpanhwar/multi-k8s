@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Fibvalues on kubernetes</h1>
+          <h1 className="App-title">Fibvalues on kubernetes GOOGLE CLOUD SHINES</h1>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
         </header>
