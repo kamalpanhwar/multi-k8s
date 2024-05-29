@@ -1,4 +1,3 @@
-export GIT_SHA=git rev-parse HEAD
 docker build -t kamalpanhwar/multi-client:latest -t kamalpanhwar/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t kamalpanhwar/multi-server:latest -t kamalpanhwar/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t kamalpanhwar/multi-worker:latest -t kamalpanhwar/multi-worker:$SHA -f ./worker/Dockerfile ./worker
